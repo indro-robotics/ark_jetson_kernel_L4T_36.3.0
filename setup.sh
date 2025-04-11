@@ -1,4 +1,7 @@
 #!/bin/bash
+
+sudo apt install wget tar git build-essential gcc-aarch64-linux-gnu flex bison libssl-dev
+
 function cleanup() {
 	kill -9 $SUDO_PID
 	exit 0
